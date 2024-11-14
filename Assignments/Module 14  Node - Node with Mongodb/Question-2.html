@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MongoDB vs SQL Database</title>
+  <!-- Tailwind CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100 text-gray-900 font-sans">
+  <div class="container mx-auto p-6">
+    <!-- Header Section -->
+    <header class="text-center mb-12">
+      <h1 class="text-4xl font-bold text-blue-600">MongoDB vs SQL Database</h1>
+      <p class="mt-4 text-lg text-gray-700">A comparison between MongoDB and traditional SQL databases</p>
+    </header>
+
+    <!-- Comparison Table Section -->
+    <section class="bg-white p-8 rounded-lg shadow-md">
+      <h2 class="text-2xl font-semibold mb-6">Key Differences</h2>
+      <table class="min-w-full bg-white border border-gray-200">
+        <thead>
+          <tr>
+            <th class="px-4 py-2 border-b text-left font-semibold text-gray-600">Aspect</th>
+            <th class="px-4 py-2 border-b text-left font-semibold text-gray-600">SQL Database</th>
+            <th class="px-4 py-2 border-b text-left font-semibold text-gray-600">MongoDB</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr class="bg-gray-50">
+            <td class="px-4 py-4 border-b">Data Model</td>
+            <td class="px-4 py-4 border-b">Table-based (rows and columns)</td>
+            <td class="px-4 py-4 border-b">Document-based (JSON-like documents)</td>
+          </tr>
+          <tr>
+            <td class="px-4 py-4 border-b">Schema</td>
+            <td class="px-4 py-4 border-b">Fixed schema (requires predefined structure)</td>
+            <td class="px-4 py-4 border-b">Flexible schema (no strict structure)</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="px-4 py-4 border-b">Scalability</td>
+            <td class="px-4 py-4 border-b">Vertical scalability (scaling up)</td>
+            <td class="px-4 py-4 border-b">Horizontal scalability (sharding)</td>
+          </tr>
+          <tr>
+            <td class="px-4 py-4 border-b">Transactions</td>
+            <td class="px-4 py-4 border-b">Strong support for complex transactions</td>
+            <td class="px-4 py-4 border-b">Supports transactions but not as complex</td>
+          </tr>
+          <tr class="bg-gray-50">
+            <td class="px-4 py-4 border-b">Use Cases</td>
+            <td class="px-4 py-4 border-b">Ideal for structured data and complex queries</td>
+            <td class="px-4 py-4 border-b">Suitable for unstructured data and real-time apps</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="text-center mt-12">
+      <div class="flex justify-center items-center gap-3">
+        <a href="Question-1.html">
+          <button class="bg-red-500 text-white py-2 px-5 rounded my-5">Previous</button>
+        </a>
+        <a href="Question-3.html">
+          <button class="bg-red-500 text-white py-2 px-5 rounded my-5">Next</button>
+        </a>
+      </div>
+    </footer>
+  </div>
+</body>
+</html>
